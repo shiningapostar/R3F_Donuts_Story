@@ -1,0 +1,21 @@
+@import '@/styles/variables.scss';
+@import '@/styles/mixins.scss';
+
+.navbar {
+    @include max-width;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 2rem;
+
+.links {
+    display: flex;
+    gap: 2rem;
+
+
+ a {
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+}
+}

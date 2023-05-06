@@ -6,7 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: $fontFamily;
+  font-family: fontFamily;
 }
 
 html {
@@ -23,7 +23,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  background-color: $black;
+  background-color: $primary;
   color: $white;
 }
 
@@ -63,5 +63,26 @@ p,
 
   @include device(mobile) {
     font-size: 4rem;
+  }
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  outline: none;
+  padding: 1.2rem 6rem;
+  font-family: $fontFamily;
+  clip-path: polygon(15% 0%, 85% 0%, 100% 50%, 85% 100%, 15% 100%, 0% 50%);
+
+  &.btn-primary {
+    background-color: $secondary;
+    color: $primary;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    &:hover {
+      cursor: pointer;
+      background-color: lighten($secondary, 3);
+    }
   }
 }
