@@ -51,6 +51,22 @@ p,
   }
 }
 
+h1,
+.h1 {
+  font-family: $fontFamily;
+  font-size: 4.8rem;
+  font-weight: 600;
+
+  @include device(notebook) {
+    font-size: 4.6rem;
+  }
+
+  @include device(mobile) {
+    font-size: 4.2rem;
+  }
+}
+
+
 .title {
   @include gradient-color;
   display: inline-block;

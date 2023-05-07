@@ -5,6 +5,7 @@ import Navbar from '@/Components/Navbar/Navbar';
 import Reviews from '@/Components/Reviews/Reviews';
 import Social from '@/Components/Social/Social';
 import Head from 'next/head';
+import Details from '@/Components/Details/Details';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
     <main>
     <Navbar />
     <Header />
+    <Details />
     <Menu />
     <About />
     <Social/>

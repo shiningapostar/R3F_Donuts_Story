@@ -27,12 +27,22 @@
             max-width: 56rem;
 
            h1 {
-            @include gradient-color;
             font-size: 6.4rem;
             font-weight: 500;
             margin: 1rem 0 2rem 0;
             max-width: 50rem;
            } 
+
+           p {
+            font-weight: 400;
+            font-size: 1.8rem;
+            line-height: 2.5rem;
+         
+          }
+          
+
+
+
         }
     }
 }
