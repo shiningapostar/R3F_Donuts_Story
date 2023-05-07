@@ -1,0 +1,38 @@
+@import '@/styles/mixins.scss';
+
+.header {
+    background: radial-gradient($lightPrimary, $primary);
+    min-height: 60rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 6rem;
+    overflow-x: clip;
+
+    .container {
+        @include max-width;
+        margin-bottom: 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 60rem;
+        align-items: center;
+
+        & > div:last-of-type {
+            height: 100%;
+        }
+
+
+        .content {
+            max-width: 56rem;
+
+           h1 {
+            @include gradient-color;
+            font-size: 6.4rem;
+            font-weight: 500;
+            margin: 1rem 0 2rem 0;
+            max-width: 50rem;
+           } 
+        }
+    }
+}

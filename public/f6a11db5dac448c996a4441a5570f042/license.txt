@@ -1,0 +1,11 @@
+Model Information:
+* title:	chocolate_donut/шоколадный_пончик
+* source:	https://sketchfab.com/3d-models/chocolate-donut-f6a11db5dac448c996a4441a5570f042
+* author:	anfisa-potekha (https://sketchfab.com/anfisa-potekha)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "chocolate_donut/шоколадный_пончик" (https://sketchfab.com/3d-models/chocolate-donut-f6a11db5dac448c996a4441a5570f042) by anfisa-potekha (https://sketchfab.com/anfisa-potekha) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

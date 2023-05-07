@@ -1,5 +1,5 @@
 import About from '@/Components/About/About';
-import Donuts from '@/Components/Donuts/Donuts';
+import Menu from '@/Components/Menu/Menu';
 import Header from '@/Components/Header/Header';
 import Navbar from '@/Components/Navbar/Navbar';
 import Reviews from '@/Components/Reviews/Reviews';
@@ -16,7 +16,7 @@ export default function Home() {
     <main>
     <Navbar />
     <Header />
-    <Donuts />
+    <Menu />
     <About />
     <Social/>
      <Reviews/>

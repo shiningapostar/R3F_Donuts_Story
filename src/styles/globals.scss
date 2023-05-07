@@ -23,7 +23,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  background-color: $primary;
+  background-color: $darkSecondary;
   color: $white;
 }
 
@@ -75,14 +75,14 @@ p,
   clip-path: polygon(15% 0%, 85% 0%, 100% 50%, 85% 100%, 15% 100%, 0% 50%);
 
   &.btn-primary {
-    background-color: $secondary;
-    color: $primary;
+    background-color: $yellow;
+    color: $white;
     text-transform: uppercase;
     font-weight: 700;
 
     &:hover {
       cursor: pointer;
-      background-color: lighten($secondary, 3);
+      background-color: lighten($yellowDark, 3);
     }
   }
 }
