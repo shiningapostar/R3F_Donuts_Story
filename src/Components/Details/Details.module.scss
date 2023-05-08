@@ -22,6 +22,7 @@
       font-size: 1.8rem;
       margin-bottom: 2rem;
       line-height: 2.5rem;
+      color: $mediumSecondary;
     }
 
     .types {
@@ -42,16 +43,16 @@
   }
 
   .card-wrapper {
-    background-color: $lightSecondary;
+    background-color: $white;
     padding: 2rem;
     z-index: 5;
     margin-top: -12rem;
     box-shadow: 0.4rem 0.4rem 1rem rgba($black, 0.25);
 
     .card {
-      border: 1px solid $darkSecondary;
+      border: 1px solid $mediumSecondary;
       padding: 2rem;
-      color: $darkSecondary;
+      color: $mediumSecondary;
       max-width: 25rem;
 
       .info:not(:last-of-type) {
