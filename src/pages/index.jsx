@@ -6,6 +6,7 @@ import Reviews from '@/Components/Reviews/Reviews';
 import Social from '@/Components/Social/Social';
 import Head from 'next/head';
 import Details from '@/Components/Details/Details';
+import Footer from '@/Components/Footer/Footer';
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
     <About />
     <Social/>
      <Reviews/>
+     <Footer />
     </main>
     </>
   );

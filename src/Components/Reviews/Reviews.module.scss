@@ -37,7 +37,7 @@
 
     h3 {
       text-transform: uppercase;
-      font-size: 1.4rem;
+      font-size: 1.6rem;
       margin-bottom: 0.5rem;
       color: $black;
       font-family: $fontFamily
@@ -52,7 +52,8 @@
 
     p {
       text-align: center;
-      color: $mediumSecondary;
+      color: $white;
+      font-size: 1.8rem;
       font-family: $fontFamily
     }
 
@@ -64,7 +65,7 @@
       outline: none;
       padding: 1rem;
       border-radius: 50%;
-      color: $lightSecondary;
+      color: $secondary;
       font-weight: 700;
       font-size: 1.8rem;
 

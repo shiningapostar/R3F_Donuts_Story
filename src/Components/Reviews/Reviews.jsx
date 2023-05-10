@@ -47,6 +47,7 @@ const Reviews = () => {
       const interval = setInterval(nextReview, 5000);
       return () => clearInterval(interval);
     }, [currentReview]);
+    
   
     const { avatar, name, role, stars, comment } = reviews[currentReview];
 
@@ -60,7 +61,7 @@ const Reviews = () => {
           width={425}
           height={250}
           />
-          <h2>O que falam da gente?</h2>
+          <h2>O que falam da gente? </h2>
       <div className={styles.review}>
         <button className={styles.previous} onClick={previousReview}>
           &larr;
@@ -75,7 +76,7 @@ const Reviews = () => {
         <h3>{name}</h3>
         <h4>{role}</h4>
         <Stars stars={stars} />
-        <p>{comment}</p>
+        <p >{comment}</p>
         <button className={styles.next} onClick={nextReview}>
           &rarr;
         </button>

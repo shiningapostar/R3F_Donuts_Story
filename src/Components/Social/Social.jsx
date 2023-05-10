@@ -4,9 +4,9 @@ import Image from 'next/image';
 
 const Social = () => {
     return (
-        <section className={styles.social}>
+        <section id='social' className={styles.social}>
           <div className={styles.content}>
-          <h2>Descubra seu donut favorito</h2>
+          <h2>😍Descubra seu donut favorito!😍</h2>
           <p className='dark-bg'>
           Cada donut é preparado com ingredientes selecionados e muito carinho,
           para que você possa saborear cada momento. Venha nos visitar e

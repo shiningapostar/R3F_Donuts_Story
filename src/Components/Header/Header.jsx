@@ -12,7 +12,7 @@ const Header = () => {
             <h1>{title}</h1>
             <p className='dark-bg'>{subtitle}</p>
             <br/>
-            <a href='#social' className='btn btn-primary'>
+            <a href='#footer' className='btn btn-primary'>
             Fale Conosco
         </a>
         </div>
