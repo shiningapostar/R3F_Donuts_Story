@@ -13,13 +13,13 @@ className={styles.about}>
 <LocalComponent  /> 
 <div className={styles.content}>
     
-    <h2>{title}</h2>
+    <h2 >{title}</h2>
     <br />
-    <p>{subtitle}</p>
+    <p className='dark-bg'>{subtitle}</p>
     <br />
-    <p>{subtitle2}</p>
+    <p className='dark-bg'>{subtitle2}</p>
     <br />
-    <p>{subtitle3}</p>
+    <p className='dark-bg'>{subtitle3}</p>
 </div>
 </div>
 </section>

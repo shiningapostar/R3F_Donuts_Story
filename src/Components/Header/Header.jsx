@@ -10,7 +10,7 @@ const Header = () => {
         <div className={styles.container}>
             <div className={styles.content}>
             <h1>{title}</h1>
-            <p>{subtitle}</p>
+            <p className='dark-bg'>{subtitle}</p>
             <br/>
             <a href='#social' className='btn btn-primary'>
             Fale Conosco
