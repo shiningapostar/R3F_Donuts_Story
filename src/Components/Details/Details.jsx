@@ -20,7 +20,7 @@ const Details = () => {
 <div className={styles.info}>
 <h3>Funcionamento</h3>
 <h4>
-    <span>Segunda a sexta: 09:00 às 18:00</span>
+    <span>Seg a Sex: 09:00 às 18:00</span>
     <span>Sábados: 09:00 às 14:00</span>
 </h4>
    </div>
