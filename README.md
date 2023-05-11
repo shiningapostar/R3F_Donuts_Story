@@ -5,6 +5,7 @@ Welcome, this project is a donut shop with 3D animation.
 ## ⚙️ Technologies
 
 - JavaScript;
+- Three.js;
 - SCSS;
 - Next.js
 
