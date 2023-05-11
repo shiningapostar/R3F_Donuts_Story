@@ -18,10 +18,17 @@
         height: 60rem;
         align-items: center;
 
-        & > div:last-of-type {
-            height: 100%;
+        @include device(tablet) {
+          grid-template-columns: 1fr;
+          justify-items: center;
+          text-align: center;
+          height: 80rem;
+          margin-top: 10rem;
         }
-
+    
+        & > div:last-of-type {
+            height: 96%;
+        }
 
         .content {
             max-width: 56rem;
@@ -40,13 +47,12 @@
             color: $lightSecondary;
             margin-bottom: 0.5rem;
             font-family: $fontFamily;
-            
-         
           }
           
-
-
-
         }
+        @include device(tablet) {
+          margin: 1rem auto 2rem auto;
+          }
+        }
+
     }
-}

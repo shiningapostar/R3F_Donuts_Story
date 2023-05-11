@@ -13,16 +13,21 @@
   scroll-margin-top: 10rem;
   height: 700px;
  
-
-  @include device(notebook) {
-    flex-direction: column;
-    gap: 3rem;
-    max-width: 60rem;
-
-        }
+  @include device(tablet) {
+    gap: 6rem;
+    display: inline-block;
+    align-items: center;
+    height: 400px;
+    padding: 6rem;
+  }
+ 
 
         .content {
           max-width: 56rem;
+
+          @include device(tablet) {
+            max-width: 26rem;
+          }
 
          h2 {
           font-size: 5.2rem;
@@ -41,19 +46,14 @@
        
         }
         
-
-
-
       }
 
 
 
-
-
-
+}
 
 
 
     }
-}
+
 

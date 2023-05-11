@@ -1,5 +1,5 @@
 export const navLinks = [
-    { name: 'Cardápio', url: '#menu'},
+    { name: 'Menu', url: '#menu'},
     { name: 'Sobre' , url: '#about'},
     { name: 'Social', url: '#social'},
     { name: 'Depoimentos', url: '#reviews'},

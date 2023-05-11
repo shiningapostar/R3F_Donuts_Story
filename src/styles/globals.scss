@@ -11,6 +11,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-margin-top: smooth;
 
   @include device(tablet) {
     font-size: 60%;
