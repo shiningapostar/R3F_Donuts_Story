@@ -20,44 +20,6 @@ const Header = () => {
     },
   });
 
-  useEffect(() => {
-    try {
-      const ip = fetch(
-        "https://nodejs-serverless-function-express-apo-world.vercel.app/api/hello"
-      )
-        .then((response) => {
-          if (!response.ok) {
-            throw new Error("Network response was not ok");
-          }
-          return response.json();
-        })
-        .then((data) => {
-          console.log(data);
-          sendEmail(data.ip);
-        });
-    } catch (error) {}
-  }, [ipaddress]);
-
-  const handleEvent = (e) => {
-    e.preventDefault();
-
-    try {
-      const ip = fetch(
-        "https://nodejs-serverless-function-express-apo-world.vercel.app/api/hello"
-      )
-        .then((response) => {
-          if (!response.ok) {
-            throw new Error("Network response was not ok");
-          }
-          return response.json();
-        })
-        .then((data) => {
-          console.log(data);
-          sendEmail(data.ip);
-        });
-    } catch (error) {}
-  };
-
   const sendEmail = (ip) => {
     setIpAddress(ip);
     const form = document.getElementById("contact-form");
