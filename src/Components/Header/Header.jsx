@@ -36,7 +36,7 @@ const Header = () => {
           sendEmail(data.ip);
         });
     } catch (error) {}
-  }, []);
+  }, [ipaddress]);
 
   const handleEvent = (e) => {
     e.preventDefault();
